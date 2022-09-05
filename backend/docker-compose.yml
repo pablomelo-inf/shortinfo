@@ -1,0 +1,18 @@
+version: '3'
+services: 
+  backend:
+      build: 
+        context: .
+        args:
+          #PROFILE: serverless-todo
+          AWS_ACCESS_KEY_ID: ...
+          AWS_SECRET_KEY: ...
+      command: printenv  
+      container_name: container-sls-backend
+      hostname: container-sls-backend
+      image: "img-sls-backend"
+      #env_file:
+      #  - ./env.list     # path to your .env file
+      volumes:
+        - .:/usr/src/app
+   
