@@ -18,6 +18,18 @@ This application will allow login with user create/remove/update/fetch Short Inf
 
 ## Installation
 
+###  Client Interface - Frontend
+
+The `client` folder contains a web application that can use the API that should be developed in the project.
+
+
+To run a client application first edit the `client/src/config.ts` file to set correct parameters. And then run the following commands:
+
+```
+cd client
+npm install
+npm run start
+```
 
 ### Backend: deploy application serverless
 
@@ -34,15 +46,4 @@ docker-compose -f docker-compose.yml build
 
 
 
-###  Client Interface - Frontend
 
-The `client` folder contains a web application that can use the API that should be developed in the project.
-
-
-To run a client application first edit the `client/src/config.ts` file to set correct parameters. And then run the following commands:
-
-```
-cd client
-npm install
-npm run start
-```
