@@ -10,7 +10,6 @@ This application will allow login with user create/remove/update/fetch Short Inf
 
 
 
-
 ## Demo
 
 ![plot](./assets/demo.gif)
@@ -43,7 +42,7 @@ AWS_SECRET_KEY: [...]
 docker-compose -f docker-compose.yml build
 ```
 
+## Next Steps
 
-
-
-
+* Add like button in short info.
+* Add share button for  sharing short info.
